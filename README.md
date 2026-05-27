@@ -5,7 +5,7 @@ This repository contains a Jupyter Notebook for processing and analysing NYC Yel
 The notebook file is:
 
 ```text
-BDCC_Tejendra_dangaura(1).ipynb
+BDCC_Tejendra_dangaura.ipynb
 ```
 
 ## Project Overview
@@ -70,7 +70,7 @@ Do not upload your real SAS token to GitHub.
 In the notebook, replace the SAS token value with your own token before running the file:
 
 ```python
-tezz_sas_token = "YOUR_SAS_TOKEN_HERE"
+tezz_sas_token = "YOUR_SAS_TOKEN"
 ```
 
 For GitHub submission, it is better to keep the SAS token hidden or load it from a secure secret store.
@@ -117,7 +117,7 @@ nyc
 Upload or import the notebook into Azure Databricks:
 
 ```text
-BDCC_Tejendra_dangaura(1).ipynb
+BDCC_Tejendra_dangaura.ipynb
 ```
 
 Attach the notebook to a running Databricks cluster.
@@ -129,7 +129,7 @@ Check and update these values in the notebook:
 ```python
 tezz_storage_account = "your_storage_account_name"
 tezz_container_name = "your_container_name"
-tezz_sas_token = "YOUR_SAS_TOKEN_HERE"
+tezz_sas_token = "YOUR_SAS_TOKEN"
 ```
 
 ### Step 4: Run PARQUET to CSV Conversion
